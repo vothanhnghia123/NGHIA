@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    font-size: 11px;
+}
+/* ======================= */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* ====================== */
+.card{
+    width: 200px;
+}
+.col-9{
+    display: flex;
+}
+.small{
+    color: #67ad03;
+    font-weight: bold;
+}
+/* ============ */
