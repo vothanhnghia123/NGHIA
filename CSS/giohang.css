@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+}
+
+/* ============= */
+.table-active>thead tr th{
+    padding: 10px;
+}
+.table-active>tbody tr td{
+    padding: 10px;
+}
+/* ============= */
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+/* =========== */
+.btn-success {
+    background-color: white;
+}
+.btn-success a{
+    color: black;
+    font-weight: bold;
+}
+/* ============== */
+.btn-primary{
+    width: 100%;
+    margin-top: 20px;
+}
+.btn-primary a{
+    color: white;
+    font-weight: bold;
+}
