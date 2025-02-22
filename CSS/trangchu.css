@@ -1,6 +1,9 @@
 a{
     text-decoration: none;
     color: black;
+    width: 100%;
+    font-size: 15px;
+    display: block;
 }
 /* =================menu =-==========*/
 .parent{
@@ -25,36 +28,18 @@ a{
     font-weight: bold;
     font-size: 20px;
 }
-/* =============== */
 /* ====================== */
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
+/* ======================= */
 
-.col-12{
-    display: flex;
-    
-}
+/* ====================== */
 .card{
-    width: 100%;
-    padding: 10px;
+    width: 250px;
 }
-.div{
-    padding: 10px;
-}
-.box{
-    margin-top: 5px;
-    margin-bottom: 5px;
+.col-9{
+    display: flex;
 }
 .small{
-    display: block;
     color: #67ad03;
     font-weight: bold;
 }
-.box a{
-    display: block;
-}
-.row{
-    padding: 10px;
-}
+/* ============ */
