@@ -1,6 +1,7 @@
 a{
     text-decoration: none;
 }
+
 /* =================menu =-==========*/
 .parent{
     display: flex;
@@ -25,6 +26,11 @@ a{
     font-weight: bold;
     font-size: 20px;
 }
+.div1>a{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
 /* ====================== */
 /* ============= */
 .table-active>thead tr th{
@@ -42,6 +48,7 @@ a{
 /* =========== */
 .btn-success {
     background-color: white;
+    margin: 10px;
 }
 .btn-success a{
     color: black;

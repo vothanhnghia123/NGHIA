@@ -25,6 +25,59 @@ a{
     font-weight: bold;
     font-size: 20px;
 }
-/* ====================== */
-
-/* ======================== */
+.div1>a{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+/* ==========col-7============ */
+.col-7{
+    padding-left: 20px;
+    border-top: 2px solid rgb(169, 184, 195);
+}
+/* === */
+.trendau>p>label{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.trendau>h3{
+    padding-top: 10px;
+}
+.trendau>p>input{
+    width: 100%;
+    border: 2px solid rgb(169, 184, 195);
+}
+.trendau>p>label span{
+    color: red;
+}
+/* === */
+.giua>p>label{
+    display: block;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.giua>p>label span{
+    color: red;
+}
+.giua>p>input{
+    display: block;
+    width: 50%;
+    border: 2px solid rgb(169, 184, 195);
+}
+.giua>p>select{
+    display: block;
+    width: 50%;
+    border: 2px solid rgb(169, 184, 195);
+}
+/* ===========col-5============= */
+.col-5{
+    padding-left: 13px;
+}
+.col-5>div{
+    border: 2px solid greenyellow;
+    width: 100%;
+    height: 100%;
+}
+/* ====== */

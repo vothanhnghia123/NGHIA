@@ -2,6 +2,10 @@ a{
     text-decoration: none;
     color: black;
 }
+.div1>a{
+    font-size:30px;
+    font-weight: bold;
+}
 /* =================menu =-==========*/
 .parent{
     display: flex;
@@ -31,14 +35,16 @@ a{
     width: 80%;
     margin: 0 auto;
 }
-
 .col-12{
     display: flex;
-    
 }
 .card{
     width: 100%;
     padding: 10px;
+    overflow: hidden;
+}
+.card:hover img{
+    transform: scale(1.2);
 }
 .div{
     padding: 10px;
