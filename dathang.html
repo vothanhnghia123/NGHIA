@@ -48,6 +48,9 @@
                                 <label >Chọn Tỉnh/Thành phố *</label>
                                 <select>
                                     <option value="">
+                                        <li> 	</li>
+                                    </option>
+                                    <option value="">
                                         <li> Hà Nội	</li>
                                     </option>
                                     <option value="">
@@ -74,15 +77,56 @@
                                 <label >Số nhà, tên đường  <span> *</span></label>
                                 <input  type="text" placeholder="Số nhà, tên đường * ">
                             </p>
-                       </div>
-                       <div>
-
+                            <p class="ghichu">
+                                <label for="">Ghi chú đơn hàng (tuỳ chọn)</label>
+                                <textarea  name="" id="" placeholder="Ghi chú đơn hàng"></textarea>
+                            </p>
                        </div>
                     </div>
                 </div>
                 <div class="col-5">
-                    <div>
-                        
+                    <div class="donhang">
+                        <h3>Đơn hàng của bạn</h3>
+                        <table>
+                            <thead>
+                                <th class="parent-name">Sản phẩm</th>
+                                <th class="parent-total">Tiền hàng</th>
+                            </thead>
+                            <tbody>
+                                <td class="parent-name">Cát cho mèo Cature Tofu - Lựa chọn cát đậu nành hàng đầu cho mèo cưng - Mùi Đậu (Đỏ)  × 1</td>
+                                <td class="parent-total"><span class="small">156,000 ₫</span></td>
+                            </tbody>
+                            <tfoot>
+                                <tr class="card-subtitle">
+                                    <th class="parent-name">Tiền hàng</th>
+                                    <td class="parent-total"><span class="small">156,000 ₫</span> </td>
+                                </tr>
+                                <tr class="card-subtitle giaohang">
+                                    <th class="parent-name ">Giao hàng</th>
+                                    <td class="parent-total"><label class="small" for="">Đồng giá (dưới 2kg):<span class="small" style="color: green ;font-weight: bold;"> 25,000 ₫</span></label></td>
+                                </tr>
+                                <tr class="card-subtitle">
+                                    <th class="parent-name">Tổng đơn hàng</th>
+                                    <td class="parent-total"></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <div class="checkbox">
+                            <li>
+                                <input type="radio" name="myradio" value="vnpay">
+                                <label for="">Thanh toán qua Cổng VNPAY</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="myradio" value="vnpay">
+                                <label for="">Chuyển khoản ngân hàng</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="myradio" value="vnpay">
+                                <label for=""> COD </label>
+                            </li>
+                        <div class="btn btn-primary">
+                            <a href="thanhtoan.html"> THANH TOÁN </a>
+                        </div>
                     </div>
                 </div>
             </div>   
