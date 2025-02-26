@@ -1,4 +1,14 @@
-.parent{
-    text-align: center;
-} 
 
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+ }
+.item{
+    height: 100px;
+    width: 35%;
+    border-radius: 0.5rem;
+    text-align: center;
+}

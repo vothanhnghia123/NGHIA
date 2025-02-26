@@ -9,7 +9,7 @@ a{
 /* =================menu =-==========*/
 .parent{
     display: flex;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
 }
 .nav ul{
     list-style-type: none;
@@ -27,7 +27,17 @@ a{
     padding: 14px 16px;
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 20px; 
+    background-color: #67ad03;  
+}
+.div1>a{
+    padding: 10px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-menu{
+    background-color: #67ad03;
 }
 /* =============== */
 /* ====================== */
