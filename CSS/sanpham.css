@@ -40,7 +40,7 @@ a{
     background-color: #67ad03;
 }
 /* =============== */
-/* ====================== */
+/* =========card============= */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -74,3 +74,20 @@ a{
 .row{
     padding: 10px;
 }
+/* ===btn them vao gio==== */
+.box>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #155bf6;
+    color: #155bf6;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.box>div:hover{
+    background-color: #155bf6;
+    color: white;
+    font-weight: bold;
+}
+/* ============ */
