@@ -6,6 +6,10 @@ a{
     font-size:30px;
     font-weight: bold;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 /* =================menu =-==========*/
 .parent{
     display: flex;
@@ -40,11 +44,9 @@ a{
     background-color: #67ad03;
 }
 /* =============== */
+/* ========col-12======= */
 /* =========card============= */
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
+
 .col-12{
     display: flex;
 }

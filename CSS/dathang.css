@@ -1,6 +1,10 @@
 a{
     text-decoration: none;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 /* =================menu =-==========*/
 .parent{
     display: flex;
@@ -85,7 +89,7 @@ a{
 /* ===========col-5============= */
 .col-5{
     padding-left: 13px;
-    height: 570px;
+    height: 590px;
 }
 .col-5>div{
     border: 2px solid greenyellow;
