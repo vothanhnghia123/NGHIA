@@ -39,6 +39,11 @@ a{
 }
 .main-menu{
     background-color: #67ad03;
+    border-radius: 20px;
+}
+/* ===== đổi màu khi di chuột vào====== */
+.nav ul li a:hover{
+    color: white;
 }
 /* ==========col-7============ */
 .col-7{
