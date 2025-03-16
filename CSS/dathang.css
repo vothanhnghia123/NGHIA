@@ -133,4 +133,25 @@ table th{
 .checkbox li label{
     font-weight: bold;
 }
-/* =========== */
+/* ======footer====== */
+#ket ul li{
+    list-style-type: none;
+}
+#ket ul li a{
+    color: black;
+}
+#ket ul{
+    padding: 0;
+}
+#ket h4:hover{
+    color: red;
+} 
+footer .row{
+    background-color: #e5e9ec;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 5px;
+}
+footer .row>div{
+    margin-top: 5px;
+}
