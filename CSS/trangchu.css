@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 a{
     text-decoration: none;
     color: black;
@@ -58,7 +63,7 @@ a{
     transition-duration: 0.3s;
 }
 /* =========col-8============= */
-/* ===== dáu gạch  */
+/* ===== dáu gạch ======= */
 .title_01 { 
     display: block;
     font-size: 1.15rem;
@@ -67,10 +72,6 @@ a{
     font-weight: bold;
     margin: 10px 5px;
     border-left: 6px solid #bff0a3;
-}
-/* ========= */
-.p-1>a{
-    margin-top: 20px;
 }
 /* ===tieu de===== */
 .tieude>div{
@@ -83,9 +84,12 @@ a{
     display: flex;
     justify-content: space-between;
 }
-/*  */
+/* ===============card============= */
 .card{
     width: 240px;
+}
+.p-1>a{
+    margin-top: 20px;
 }
 .p-1>span{
     display: block;

@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 a{
     text-decoration: none;
 }
@@ -41,7 +46,7 @@ a{
     background-color: #67ad03;
     border-radius: 20px;
 }
-/* ===== đổi màu khi di chuột vào====== */
+/* ===== đổi màu khi di chuột vào của menu====== */
 .nav ul li a:hover{
     color: white;
 }
